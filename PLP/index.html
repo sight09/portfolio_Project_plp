@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Amanuel A. Zewdu — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Amanuel A. Zewdu: front-end developer showcasing projects, skills, education, and interests."
+    />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#3B82F6" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Amanuel A. Zewdu — Portfolio" />
+    <meta
+      property="og:description"
+      content="Projects, skills, education, and contact for Amanuel A. Zewdu."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/og-image.jpg" />
+    <meta property="og:url" content="https://your-domain.example" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Amanuel A. Zewdu — Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Projects, skills, education, and contact for Amanuel A. Zewdu."
+    />
+    <meta name="twitter:image" content="assets/images/og-image.jpg" />
+    <!-- Canonical -->
+    <link rel="canonical" href="https://your-domain.example" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- JSON-LD Person Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Amanuel A. Zewdu".,
+        "jobTitle": "Front-End Developer",
+        "url": "https://your-domain.example",
+        "sameAs": [
+          "https://github.com/sight09",
+          "https://www.linkedin.com/in/amanuel-alemu-zewdu"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="#hero" aria-label="Home">Amanuel A. Zewdu</a>
+        <button
+          class="nav__toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span class="sr-only">Toggle navigation</span>☰
+        </button>
+        <ul id="nav-menu" class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Programming Languages</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <!-- HERO -->
+      <section id="hero" class="section hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Hi, I’m <span class="accent">Amanuel A. Zewdu</span>
+            </h1>
+            <p class="hero__tagline">
+              <p class="hero__tagline">
+  Computer Science student passionate about building real-world web and software solutions that are simple, fast, and user-friendly — with a growing focus on AI-powered technologies to solve complex problems intelligently.
+</p>
+
+            </p>
+            <div class="hero__ctas">
+              <a class="btn btn--primary" href="
+              ">View Projects</a>
+              <a class="btn btn--ghost" href="./image/CV_sample.pdf" download
+                >Download CV</a
+              >
+            </div>
+          </div>
+          <div class="hero__art" aria-hidden="true">
+            <!-- Minimal CSS illustration -->
+            <div class="orb"></div>
+            <div class="mesh"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section section--alt">
+        <div class="container about__grid">
+          <img
+            class="about__avatar"
+            src="./image/profile_pics.jpg"
+            alt="Portrait of Amanuel A. Zewdu"
+            loading="lazy"
+          />
+          <div>
+            <h2>About Me</h2>
+            <p>
+              Hi! I’m Amanuel A. Zewdu, a passionate web developer who enjoys
+              crafting fast, accessible, and beautiful web experiences.
+            </p>
+            <p>
+              I focus on clean semantics, thoughtful design, and maintainable
+              code. I’m currently interested in performance, design systems, and
+              inclusive UI.
+            </p>
+            <p>
+              Lately, I've also been exploring how artificial intelligence can enhance user experience—from intelligent search and recommendation systems to AI-assisted development tools. I'm particularly fascinated by how AI can empower developers to build smarter, more adaptive applications.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS / PROGRAMMING LANGUAGES -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Programming Languages</h2>
+          <ul class="chip-list" aria-label="List of programming languages">
+            <li class="chip">HTML</li>
+            <li class="chip">CSS</li>
+            <li class="chip">JavaScript</li>
+            <li class="chip">Python</li>
+            <li class="chip">C++</li>
+            <li class="chip">Java</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section section--alt">
+        <div class="container">
+          <h2>Educational Background</h2>
+          <article class="edu-card">
+            <h3>BSc in Computer Science </h3>
+            <p class="muted">Jimma University — [2024 - 2027]</p>
+            <p>
+              I am studing computer Science at Jimma University
+            </p>
+            <a
+              class="btn btn--primary"
+              href="./image/CV_sample.pdf"
+              download
+              aria-label="Download my CV as PDF"
+              >Download CV</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <!-- INTERESTS -->
+      <section id="interests" class="section">
+        <div class="container">
+          <h2>Interests</h2>
+          <ul class="list">
+            <li>
+              <span class="dot" aria-hidden="true"></span> Artifical Intelligence
+            </li>
+            <li>
+              <span class="dot" aria-hidden="true"></span> Web Performance and
+              Core Web Vitals
+            </li>
+            <li>
+              <span class="dot" aria-hidden="true"></span> Accessibility and
+              Inclusive Design
+            </li>
+            <li>
+              <span class="dot" aria-hidden="true"></span> UI/UX and Design
+              Systems
+            </li>
+            <li>
+              <span class="dot" aria-hidden="true"></span> Modern CSS and
+              Architecture
+            </li>
+            <li>
+              <span class="dot" aria-hidden="true"></span> Learning & Mentorship
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section section--alt">
+        <div class="container">
+          <h2>Projects</h2>
+
+          <div class="grid projects__grid">
+            <!-- Project Card 1 -->
+            <article class="card project">
+              <img
+                src="./image/project_1.jpg"
+                alt="Screenshot of Project 1"
+                loading="lazy"
+                class="project__image"
+              />
+              <div class="project__body">
+                <h3>Project One</h3>
+                <p>
+                  Ai based solution.
+                </p>
+                <ul class="tag-list">
+                  <li class="tag">HTML</li>
+                  <li class="tag">CSS</li>
+                  <li class="tag">JavaScript</li>
+                  <li class="tag">Python </li>
+                  <li class="tag">Accessibility</li>
+                </ul>
+                <div class="project__links">
+                  <a
+                    class="btn btn--small btn--primary"
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noopener"
+                    >Live</a
+                  >
+                  <a
+                    class="btn btn--small btn--ghost"
+                    href="https://github.com/sight09"
+                    target="_blank"
+                    rel="noopener"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <!-- Project Card 2 -->
+            <article class="card project">
+              <img
+                src="./image/project_2.jpg"
+                alt="Screenshot of Project 2"
+                loading="lazy"
+                class="project__image"
+              />
+              <div class="project__body">
+                <h3>Project Two</h3>
+                <p>
+                  web based solutions.
+                </p>
+                <ul class="tag-list">
+                  <li class="tag">HTML</li>
+                  <li class="tag">CSS</li>
+                  <li class="tag">JavaScript</li>
+                  <li class="tag">Responsive</li>
+                </ul>
+                <div class="project__links">
+                  <a
+                    class="btn btn--small btn--primary"
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noopener"
+                    >Live</a
+                  >
+                  <a
+                    class="btn btn--small btn--ghost"
+                    href="https://github.com/sight09"
+                    target="_blank"
+                    rel="noopener"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <p class="muted">
+            Prefer email? <a href="zeamanuel09@gmail.com">zeamanuel09@gmail.com</a>
+          </p>
+          <form
+            class="form"
+            action="mailto:zeamanuel09@gmail.com"
+            method="POST"
+            enctype="text/plain"
+          >
+            <div class="form__row">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                autocomplete="name"
+              />
+            </div>
+            <div class="form__row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                autocomplete="email"
+              />
+            </div>
+            <div class="form__row">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">Send Message</button>
+            <p class="form__hint">
+              This form opens your default email client. If it doesn’t, email me
+              directly.
+            </p>
+          </form>
+
+          <ul class="social">
+            <li>
+              <a
+                href="https://github.com/sight09"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/amanuel-alemu-zewdu"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://t.me.com/@sight09" target="_blank" rel="noopener"
+                >Telegram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__grid">
+        <p>© 2025 Amanuel A. Zewdu. Built for PLP Academy Hackathon.</p>
+        <ul class="footer__links">
+          <li><a href="#hero">Top</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Progressive enhancement: small nav toggle without external JS (optional) -->
+    <script>
+      const toggle = document.querySelector(".nav__toggle");
+      const menu = document.querySelector("#nav-menu");
+      if (toggle && menu) {
+        toggle.addEventListener("click", () => {
+          const expanded = toggle.getAttribute("aria-expanded") === "true";
+          toggle.setAttribute("aria-expanded", String(!expanded));
+          menu.classList.toggle("is-open");
+        });
+      }
+    </script>
+  </body>
+</html>
